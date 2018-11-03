@@ -1,0 +1,79 @@
+body{	
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	background-image: url(backgroud.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+ .content{
+ 	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	height: 455px;
+	width: 360px;
+	background: #000000;
+	opacity: 1;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #161515;
+} 
+h2{
+	color: white;
+	text-align: center;
+	padding: 1px;
+	font-size: 40px;
+}
+h4{
+	color: white;
+}
+.form1{
+	margin-left: 10%;
+
+}
+.register{
+	color: white;
+	float: left;
+}
+.use_name input{
+	padding: 10px;
+	width: 77%;
+	margin-top: -10px;
+}
+.pass input{
+	padding: 10px;
+	width: 77%;
+	margin-top: -10px;
+}
+
+.login{
+	color: white;
+}
+.form2 input[type=submit]{
+	width: 25%;
+	border: 1px solid #FF2A00;
+	text-align: center;
+	padding: 2%;
+	background: #FF2A00;
+	color: #ffffff;
+	border-radius: 3px;
+	font-size: 20px;
+	margin-left: 37%;
+}
+.form2 p{
+	color: white;
+	margin-left: 50px;
+}
+.capcha{
+	width: 100%;
+}
+
+/*button{
+}*/

@@ -1,0 +1,150 @@
+#products-wrapper {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.products {
+	width: 65%;
+	float:left;
+	margin-right: 10px;
+	margin-left: 235px;
+	margin-top: 15px;
+}
+.product {
+	margin-bottom: 10px;
+	height: 100px;
+	padding: 10px;
+	background-color: #72D3D9;
+	border: 1px solid #72D3D9;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #72D3D9;
+	
+}
+#product-thumb {
+	height: 80px;
+	width: 100px;
+	margin-right: 10px;
+}
+#product-thumb img{
+	height: 80px;
+	width: 100px;
+	margin-left: 10px;
+}
+#product-content{
+	overflow:hidden;
+}
+#product-content h3 {
+	font-size: 25px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#product-info {
+	width: 540px;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top:30px;
+}
+.product-info h3 {
+	font-size: 20px;
+}
+.shopping-cart{
+	width: 27%;
+	float:left;
+	background: #72D3D9;
+	padding: 25px;	
+	border: 1px solid #72D3D9;
+	border-radius: 5px;
+	margin-left: 470px;
+	margin-top: 50px;
+
+}
+.shopping-cart h2 {
+	background: #FF0000;
+	padding: 4px;
+	font-size: 14px;
+	margin: -10px -10px 5px;
+	color: #FFFFFF;
+}
+
+.shopping-cart h3,.view-cart h3 {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+.shopping-cart ol{
+	padding: 1px 0px 0px 15px;
+}
+.shopping-cart .cart-itm, .view-cart .cart-itm{
+	border-bottom: 1px solid #DDD;
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	color: black;
+}
+.shopping-cart .remove-itm, .view-cart .remove-itm{
+	font-size: 14px;
+	float: right;
+	background: #D5D5D5;
+	padding: 4px;
+	line-height: 8px;
+	border-radius: 3px;
+}
+.shopping-cart .remove-itm:hover, .view-cart .remove-itm:hover{
+	background: #C4C4C4;
+}
+.shopping-cart .remove-itm a, .view-cart .remove-itm a{
+	color: #888;
+	text-shadow: 1px 1px 1px #ECECEC;
+	text-decoration:none;
+}
+
+.check-out-txt{
+	float:right;
+}
+
+/*** view cart **/
+.view-cart{
+	width: 40%;
+	float:left;
+	background: #72D3D9;
+	padding: 20px;	
+	border: 1px solid #72D3D9;
+	border-radius: 5px;
+	margin-left: 370px;
+	font-size: 18px;
+}
+.view-cart .p-price{
+	float: right;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.view-cart .product-info{width:60%;}
+.thanhtoan, .xoa{
+	color: #1F38F4;
+}
+.tien{
+	color: red;
+}
+.xacnhan{
+	margin-left: 30px;
+}
+.xacnhan, .trolai{
+	padding: 5px;
+	background-color: #060623;
+	color: white;
+}
+#h1{
+	float: left;
+	margin-left: 495px;
+}
+#cart{
+	float: right;
+	width: 3%;
+	margin-top: 28px;
+	margin-right: 245px;
+}
