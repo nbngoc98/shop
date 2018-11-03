@@ -6,11 +6,7 @@
 </head>
 <body>
 	<?php 
-		$server = 'localhost'; //$server = '127.0.0.1';
-		$username = 'root';
-		$password = ''; //$password = '';
-		$database = 'php05';
-		$connect = mysqli_connect($server, $username, $password, $database);
+		include 'connect.php';
 		$sql = "SELECT * FROM login";
 		$result = mysqli_query($connect, $sql);
 		// Add User

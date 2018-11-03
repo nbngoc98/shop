@@ -3,18 +3,8 @@
 error_reporting(0);
 session_start();
 
-$server = 'localhost'; //$server = '127.0.0.1';
-$username = 'root';
-$password = ''; //$password = '';
-$database = 'php05';
-
+include 'connect.php';
 if(isset($_POST["Submit"])){
-	// Create connection
-		$connect = mysqli_connect($server, $username, $password, $database);
-		// Check connection
-		if ($connnect->connect_error) {
-			die("Connection failed: " . $connect->connect_error);
-		} 
 		//Validate form
 
 		$user_name = $_POST['username'];
